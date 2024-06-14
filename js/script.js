@@ -7,4 +7,5 @@ const createPet = function (name, species) {
         species: species,
         isTired: 5
     }
+    return pet;
 }
