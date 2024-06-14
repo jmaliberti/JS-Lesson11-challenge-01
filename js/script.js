@@ -5,7 +5,11 @@ const createPet = function (name, species) {
     const pet = {
         name: name,
         species: species,
-        isTired: 5
+        isTired: 5,
+        sleep: function () {
+            console.log(`${name} needs a nap. Zzz...`);
+            this.isTired = 1;
+        }
     }
     return pet;
 }
