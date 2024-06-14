@@ -31,6 +31,8 @@ const francine = createPet("Francine","turtle");
 
 //console.log(sora, clover, baxter, cleo, francine);
 
-clover.sleep();
-baxter.play();
+//clover.sleep();
+//baxter.play();
 
+//console.log(clover);
+//console.log(baxter);
